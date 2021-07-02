@@ -40,6 +40,7 @@ saveBtn.addEventListener("click", function () {
   });
 });
 
+// When clicked, the link in the textbox is added as a hyperlink
 inputBtn.addEventListener("click", function () {
   let inputValue = inputEl.value;
   if (inputValue != "") {
