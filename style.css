@@ -1,0 +1,70 @@
+:root {
+  --primaryColor: #7453cf;
+  --font-size: 20px;
+  --font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --link-color: #41258f;
+}
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: var(--font-family);
+  min-width: 458px;
+  color: var(--primaryColor);
+  background-color: #f2f7fd;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--primaryColor);
+  margin-bottom: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 3px 0px;
+  border: 1px solid var(--primaryColor);
+  font-weight: bold;
+  background: none;
+  color: var(--primaryColor);
+}
+
+#input-btn,
+#save-btn {
+  background: var(--primaryColor);
+  color: white;
+}
+
+#delete-btn {
+  margin-left: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input,
+button {
+  border-radius: 3px;
+}
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px 10px;
+  border: 0.5px solid rgb(219, 192, 255);
+  background-color: white;
+  border-radius: 3px;
+}
+
+li a {
+  color: var(--link-color);
+  text-decoration: none;
+}
