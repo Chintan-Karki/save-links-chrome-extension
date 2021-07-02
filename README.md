@@ -4,7 +4,7 @@ This is a simple chrome extension built in order to save links at any particular
 
 ## Getting Started
 
-###Installing:
+### Installing:
 To install this extension, 
 * Simply download the zipped folder of this repository. 
 * Headover to chrome://extensions in your chromium-based browser
